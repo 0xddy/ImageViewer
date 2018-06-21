@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.lmcw.imagereview">
+
+    <application
+        android:allowBackup="true"
+
+        android:supportsRtl="true">
+        <activity
+            android:name=".ImageViewerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTransparentTheme" />
+    </application>
+
+</manifest>

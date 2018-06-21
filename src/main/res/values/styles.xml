@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#2b2b2b</item>
+        <item name="colorPrimaryDark">#2b2b2b</item>
+        <item name="colorAccent">#2b2b2b</item>
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTransparentTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+</resources>
